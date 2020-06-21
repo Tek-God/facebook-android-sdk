@@ -3,14 +3,14 @@
 
 name: Java CI with Maven
 
-on:
-  push:
+on:start
+  push:commit
     branches: [ master ]
   pull_request:
     branches: [ master ]
 
-jobs:
-  build:
+jobs:workflows
+  build:Java CI with Maven
 
     runs-on: ubuntu-latest
 
